@@ -1,0 +1,35 @@
+{
+  "name": "dora-gesture",
+  "version": "1.0.0",
+  "description": "A tiny gesture library.",
+  "main": "dist/gesture.umd.js",
+  "module": "dist/gesture.es5.js",
+  "typings": "dist/types/gesture.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "rollup -c rollup.config.ts -w",
+    "prebuild": "rimraf dist",
+    "build": "tsc --module commonjs && rollup -c rollup.config.ts && typedoc --out docs --target es6 --theme minimal --mode file src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gesture",
+    "touch"
+  ],
+  "author": "zhiwen.zhao",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "rollup": "^0.67.0",
+    "rollup-plugin-commonjs": "^9.1.8",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-typescript2": "^0.18.0",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.6.4"
+  }
+}
