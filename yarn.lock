@@ -310,9 +310,9 @@ isobject@^2.0.0:
     isarray "1.0.0"
 
 jquery@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.npm.taobao.org/jquery/download/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
-  integrity sha1-cU8fjZ3eS9+lV2S6N+8hRjDYDvI=
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.0.tgz#9980b97d9e4194611c36530e7dc46a58d7340fc9"
+  integrity sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==
 
 jsonfile@^4.0.0:
   version "4.0.0"
@@ -332,11 +332,6 @@ kind-of@^6.0.0:
   version "6.0.2"
   resolved "https://registry.npm.taobao.org/kind-of/download/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha1-ARRrNqYhjmTljzqNZt5df8b20FE=
-
-lodash.camelcase@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.npm.taobao.org/lodash.camelcase/download/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
-  integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
 
 lodash@^4.17.15:
   version "4.17.15"
